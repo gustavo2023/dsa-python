@@ -3,7 +3,7 @@ Problem: Two Sum
 LeetCode URL: https://leetcode.com/problems/two-sum/description/
 
 Description:
-Given an array of integers nums and an integer target, return indices of the two numbers such 
+Given an array of integers nums and an integer target, return indices of the two numbers such
 that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -13,6 +13,7 @@ You can return the answer in any order.
 Time Complexity: O(n)
 Space Complexity: O(n)
 """
+
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -24,6 +25,7 @@ class Solution:
             if difference in nums_map:
                 return [nums_map[difference], i]
             nums_map[nums[i]] = i
+
 
 if __name__ == "__main__":
     sol = Solution()
