@@ -27,9 +27,9 @@ class Solution:
         for i in range(len(nums) - 1, -1, -1):
             res[i] *= suffix
             suffix *= nums[i]
-        
+
         return res
-    
+
 
 if __name__ == "__main__":
     sol = Solution()
