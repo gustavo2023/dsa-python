@@ -15,15 +15,17 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        s_dict, t_dict = {}, {}
+        count = [0] * 26
 
-        for char in s:
-            s_dict[char] = s_dict.get(char, 0) + 1
+        for i in range(len(s)):
+            count[ord(s[i]) - ord("a")] += 1
+            count[ord(t[i]) - ord("a")] -= 1
 
-        for char in t:
-            t_dict[char] = t_dict.get(char, 0) + 1
+        for c in count:
+            if c != 0:
+                return False
 
-        return s_dict == t_dict
+        return True
 
 
 if __name__ == "__main__":
