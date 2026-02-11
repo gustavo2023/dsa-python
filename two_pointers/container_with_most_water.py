@@ -24,7 +24,7 @@ class Solution:
         l = 0
         r = len(height) - 1
 
-        while l != r:
+        while l < r:
             min_height = min(height[l], height[r])
             curr_container = (r - l) * min_height
 
