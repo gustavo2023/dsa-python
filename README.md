@@ -28,7 +28,7 @@ The problems are organized by pattern/topic:
 
 ## Progress
 
-- [ ] Arrays & Hashing
+- [✅] Arrays & Hashing
 - [ ] Two Pointers
 - [ ] Sliding Window
 - [ ] Stack
