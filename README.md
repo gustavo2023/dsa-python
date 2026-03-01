@@ -29,7 +29,7 @@ The problems are organized by pattern/topic:
 ## Progress
 
 - [✅] Arrays & Hashing
-- [ ] Two Pointers
+- [✅] Two Pointers
 - [ ] Sliding Window
 - [ ] Stack
 - [ ] Binary Search
