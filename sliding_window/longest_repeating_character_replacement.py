@@ -32,7 +32,7 @@ class Solution:
             max_length = max(max_length, r - l + 1)
 
         return max_length
-    
+
 
 if __name__ == "__main__":
     sol = Solution()
